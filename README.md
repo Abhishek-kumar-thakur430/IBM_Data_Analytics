@@ -38,20 +38,21 @@ region, product category, sales, quantity, discount, and profit.
 pip install -r requirements.txt
 
 # 2. Run the full analysis in the console (quick check, no browser needed)
-python Abhishek Thakur_ecommerce_sales_analytics.py --cli
+python AbhishekThakur_ecommerce_sales_analytics.py --cli
 
 # 3. Or launch the interactive dashboard
-streamlit run Abhishek Thakur_ecommerce_sales_analytics.py
+streamlit run AbhishekThakur_ecommerce_sales_analytics.py
 ```
 
 ## Project structure
 
 ```
 .
-├── ecommerce_sales_analytics.py   # single file: cleaning + EDA + model + dashboard
+├── AbhishekThakur_ecommerce_sales_analytics.py
+   # single file: cleaning + EDA + model + dashboard
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # this file
-├── E-Commerce_Sales_Analytics_Report.docx   # written project report
+├── AbhishekThakur_E-Commerce_Sales_Analytics_Report.docx   # written project report
 └── data/
     └── superstore.csv              # raw dataset
 ```
