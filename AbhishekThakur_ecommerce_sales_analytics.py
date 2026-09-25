@@ -12,10 +12,10 @@ Dataset: "Sample - Superstore" (Kaggle) — 9,994 e-commerce orders, 2014-2017.
 Source link: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
 Run the dashboard with:
-    streamlit run Abhishek Thakur_ecommerce_sales_analytics.py
+    streamlit run AbhishekThakur_ecommerce_sales_analytics.py
 
 Run just the analysis/model (no dashboard) with:
-    python Abhishek Thakur_ecommerce_sales_analytics.py --cli
+    python AbhishekThakur_ecommerce_sales_analytics.py --cli
 """
 
 import sys
